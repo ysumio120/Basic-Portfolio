@@ -18,7 +18,9 @@ h1, h2 {
 }
 
 header {
-	padding: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 header h1 {
 	background-color: #4aaaa5;
@@ -26,14 +28,35 @@ header h1 {
 	width:250px;
 	text-align: center;
 	padding: 30px;
-	display: inline;
+	float: left;
 }
 
-header div {
-	display:inline;
-	float: right;
-	padding: 10px 20px 20px 10px;
+div.container {
+	background-color: #eeeeee;
+}
 
+nav {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #tabs {
@@ -46,12 +69,52 @@ header div {
 	font-size: 18px;
 }
 
+#main {
+	width: 650px;
+}
+
+#main img {
+	width: 250px;
+	height: 170px;
+	vertical-align: text-top;
+	float: left;
+}
+
+#main p {
+	width: 200px;
+}
 #main h1,
 #sidebar h2 {
 	color:#4aaaa5;
 }
 
+#sidebar {
+	width: 270px;
+	float: left;
+}
+
+#sidebar h2 {
+	padding-left: 7px;
+}
+
+#sidebar img {
+	align-content: center;
+	width: 60px;
+	height: 60px;
+	padding: 8px;
+}
+
+#sidebar_line {
+	width: 250px;
+}
+
 p {
 	color: #777777;
+}
+
+#footer_design,
+#footer {
+	text-align: center;
+	clear: both;
 }
 
