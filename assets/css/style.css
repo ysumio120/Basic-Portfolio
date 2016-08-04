@@ -1,4 +1,9 @@
+
 body {
+	background-image: url("../images/cork-wallet.png");
+	background-repeat: repeat-x;
+	background-position: 0 94px;
+	background-size: cover;
 	margin: 0;
 	padding: 0;
 	color: #777777;
@@ -13,24 +18,18 @@ body {
 	clear:both;
 }
 
-#content {
-	width: 100%;
-	height: 500px;
-	background-image: url("../images/cork-wallet.png");
-	/*padding: 30 0;*/
+#content{
+	margin: 30px 0;
 }
 .container {
 	width: 960px;
 	clear:both;
 	margin-left: 150px;
 	position: relative;
+
 }
 
-#content {
-	padding: 30px 0;
-}
-
-h1, h2 {
+h1, h2, p {
 	font-family: 'Georgia', 'Times', Times New Roman, serif;
 }
 
@@ -76,6 +75,7 @@ li a:hover {
 	background-color: #4aaaa5;
 }
 
+
 #main {
 	border-style: solid;
 	border-color: #dddddd;
@@ -83,6 +83,8 @@ li a:hover {
 	width: 650px;
 	float: left;
 	padding-bottom: 25px;
+	margin-bottom: 30px;
+
 }
 
 #sidebar {
@@ -121,6 +123,66 @@ li a:hover {
 	margin: 0 25px;
 }
 
+#projects img {
+	width: 270px;
+	height: 200px;
+	
+}
+
+#projects a {
+	display: inline-block;
+}
+#projects a p {
+	position: absolute;
+	background-color: #4aaaa5;
+	color:white;
+	width: 270px;
+	padding: 15px 0;
+	text-align: center;
+	margin-left: 25px;
+	margin-top: 147px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+#projects a p:link {
+	text-decoration: none;
+}
+
+#projects a p:hover {
+	background-color: grey;
+}
+
+form {
+	margin: 25px;
+}
+
+input {
+	text-indent: 10px;
+	width:100%;
+	height: 30px;
+	margin: 5px 25px 13px 0;
+}
+
+input[placeholder] {
+	text-indent: 10px;
+}
+
+input[name="submit"] {
+	text-indent: 0px;
+	text-align: center;
+	color: white;
+	border: hidden;
+	background-color: #4aaaa5;
+	width: 90px;
+	height: 30px;
+	margin-bottom: -15px;
+}
+
+textarea {
+	width: 600px;
+	max-width: 600px;
+}
 #sidebar h2 {
 	color:#4aaaa5;
 	padding-left: 5px;
@@ -142,6 +204,7 @@ li a:hover {
 }
 
 #footer_bar {
+
 	background-color: #4aaaa5;
 	height: 7px;
 	width: 100%;
